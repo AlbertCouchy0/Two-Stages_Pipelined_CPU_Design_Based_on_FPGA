@@ -1,0 +1,91 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Sat Apr  5 20:16:33 2025
+| Host         : SaverZY running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    13 |
+|    Minimum number of control sets                        |    13 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    10 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    13 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     4 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     6 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              15 |            6 |
+| No           | No                    | Yes                    |              36 |           15 |
+| No           | Yes                   | No                     |               4 |            2 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             119 |           44 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+--------------------------------------------------------------------------------------------------------------------+------------------+------------------+----------------+--------------+
+|  Clock Signal  |                                                    Enable Signal                                                   | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+--------------------------------------------------------------------------------------------------------------------+------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG |                                                                                                                    | show/p_0_in[2]   |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG | cu/CAR[6]_i_1_n_0                                                                                                  | ALU1/rst         |                4 |              7 |         1.75 |
+|  clk_IBUF_BUFG | cu/bbstub_douta[21][0]                                                                                             | ALU1/rst         |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG | cu/CM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/douta[3]  | ALU1/rst         |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG | cu/CM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/douta[6]  | ALU1/rst         |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG | cu/CM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/douta[7]  | ALU1/rst         |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG |                                                                                                                    |                  |                6 |             15 |         2.50 |
+|  clk_IBUF_BUFG | cu/E[0]                                                                                                            | ALU1/rst         |                3 |             16 |         5.33 |
+|  clk_IBUF_BUFG | cu/bbstub_douta[18][0]                                                                                             | ALU1/rst         |               11 |             16 |         1.45 |
+|  clk_IBUF_BUFG | cu/CM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/douta[4]  | ALU1/rst         |                5 |             16 |         3.20 |
+|  clk_IBUF_BUFG | cu/CM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/douta[15] | ALU1/rst         |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG | cu/CM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/douta[9]  | ALU1/rst         |                6 |             16 |         2.67 |
+|  clk_IBUF_BUFG |                                                                                                                    | ALU1/rst         |               15 |             36 |         2.40 |
++----------------+--------------------------------------------------------------------------------------------------------------------+------------------+------------------+----------------+--------------+
+
+

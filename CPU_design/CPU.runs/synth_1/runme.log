@@ -1,0 +1,420 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 19812
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1367.176 ; gain = 440.090
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/top.v:22]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.runs/synth_1/.Xil/Vivado-17116-SaverZY/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.runs/synth_1/.Xil/Vivado-17116-SaverZY/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ACC' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/ACC.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ACC' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/ACC.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mul' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.runs/synth_1/.Xil/Vivado-17116-SaverZY/realtime/Mul_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Mul' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.runs/synth_1/.Xil/Vivado-17116-SaverZY/realtime/Mul_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BR' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/BR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'BR' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/BR.v:23]
+INFO: [Synth 8-6157] synthesizing module 'control_unit' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/control_unit.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Control_Memory' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.runs/synth_1/.Xil/Vivado-17116-SaverZY/realtime/Control_Memory_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Control_Memory' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.runs/synth_1/.Xil/Vivado-17116-SaverZY/realtime/Control_Memory_stub.v:6]
+INFO: [Synth 8-155] case statement is not full and has no default [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/control_unit.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'control_unit' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/control_unit.v:22]
+INFO: [Synth 8-6157] synthesizing module 'IR' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/IR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IR' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/IR.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MAR_a' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MAR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MAR_a' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MAR.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MAR_b' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MAR_b.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MAR_b' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MAR_b.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'MBR_a' does not match port width (8) of module 'MAR_b' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/top.v:110]
+INFO: [Synth 8-6157] synthesizing module 'Memory' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.runs/synth_1/.Xil/Vivado-17116-SaverZY/realtime/Memory_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Memory' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.runs/synth_1/.Xil/Vivado-17116-SaverZY/realtime/Memory_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'MBR_a' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MBR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MBR_a' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MBR.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MBR_b' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MBR_b.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MBR_b' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MBR_b.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PC' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/PC.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/PC.v:22]
+INFO: [Synth 8-6157] synthesizing module 'display' [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/display.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'display' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/display.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/top.v:22]
+WARNING: [Synth 8-7129] Port CBR[21] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[20] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[19] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[18] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[17] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[16] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[15] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[14] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[13] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[12] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[11] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[10] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[9] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[8] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[7] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[6] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[5] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[4] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[3] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[2] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[1] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[0] in module display is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[20] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[19] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[18] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[17] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[16] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[15] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[14] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[13] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[12] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[11] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[10] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[9] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[8] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[7] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[6] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[4] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[3] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[2] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[1] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[0] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MBR_a[15] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MBR_a[14] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MBR_a[13] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MBR_a[12] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MBR_a[11] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MBR_a[10] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MBR_a[9] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MBR_a[8] in module PC is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[21] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[20] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[19] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[18] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[17] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[16] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[15] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[14] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[13] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[12] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[11] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[9] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[7] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[6] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[5] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[4] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[3] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[2] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[1] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[0] in module MBR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[21] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[20] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[19] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[18] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[17] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[16] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[15] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[14] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[13] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[12] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[11] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[10] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[9] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[8] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[7] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[6] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[5] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[3] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[2] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[1] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[0] in module MBR_a is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[21] in module MAR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[20] in module MAR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[19] in module MAR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[18] in module MAR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[17] in module MAR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[16] in module MAR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[15] in module MAR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[14] in module MAR_b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CBR[13] in module MAR_b is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1480.023 ; gain = 552.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1480.023 ; gain = 552.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1480.023 ; gain = 552.938
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1480.023 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [x:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/Memory/Memory/Memory_in_context.xdc] for cell 'memory'
+Finished Parsing XDC File [x:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/Memory/Memory/Memory_in_context.xdc] for cell 'memory'
+Parsing XDC File [x:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/Control_Memory/Control_Memory/Control_Memory_in_context.xdc] for cell 'cu/CM'
+Finished Parsing XDC File [x:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/Control_Memory/Control_Memory/Control_Memory_in_context.xdc] for cell 'cu/CM'
+Parsing XDC File [x:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/Mul/Mul/Mul_in_context.xdc] for cell 'ALU1/mul'
+Finished Parsing XDC File [x:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/Mul/Mul/Mul_in_context.xdc] for cell 'ALU1/mul'
+Parsing XDC File [x:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_new'
+Finished Parsing XDC File [x:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_new'
+Parsing XDC File [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/constrs_1/new/cpu.xdc]
+Finished Parsing XDC File [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/constrs_1/new/cpu.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/constrs_1/new/cpu.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1579.371 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+系统找不到指定的路径。
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1579.371 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'memory' at clock pin 'clka' is different from the actual clock period '2.500', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'cu/CM' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  x:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  x:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property KEEP_HIERARCHY = SOFT for memory. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for cu/CM. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ALU1/mul. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for clk_new. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   3 Input   32 Bit       Adders := 1     
+	   3 Input   16 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 6     
+	                8 Bit    Registers := 6     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 1     
+	  16 Input    8 Bit        Muxes := 1     
+	  15 Input    7 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   9 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 6     
+	  15 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[15]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[14]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[13]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[12]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module memory has unconnected pin dina[0]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |clk_wiz_0      |         1|
+|2     |Memory         |         1|
+|3     |Mul            |         1|
+|4     |Control_Memory |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |Control_Memory |     1|
+|2     |Memory         |     1|
+|3     |Mul            |     1|
+|4     |clk_wiz        |     1|
+|5     |CARRY4         |    23|
+|6     |LUT1           |     3|
+|7     |LUT2           |    57|
+|8     |LUT3           |    35|
+|9     |LUT4           |    24|
+|10    |LUT5           |    34|
+|11    |LUT6           |    49|
+|12    |MUXF7          |     4|
+|13    |FDCE           |   151|
+|14    |FDPE           |     4|
+|15    |FDRE           |    15|
+|16    |FDSE           |     4|
+|17    |IBUF           |     1|
+|18    |OBUF           |    16|
++------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1580.383 ; gain = 653.297
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 16 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1580.383 ; gain = 552.938
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1580.383 ; gain = 653.297
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1580.383 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 27 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1580.383 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+系统找不到指定的路径。
+Synth Design complete | Checksum: 6d7de51f
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 104 Warnings, 16 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1580.383 ; gain = 1063.242
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1580.383 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  5 20:16:07 2025...

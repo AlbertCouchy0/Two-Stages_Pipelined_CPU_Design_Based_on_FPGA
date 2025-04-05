@@ -1,0 +1,1 @@
+Mul.vhd,vhdl,xil_defaultlib,../../../../CPU.gen/sources_1/ip/Mul/sim/Mul.vhd,

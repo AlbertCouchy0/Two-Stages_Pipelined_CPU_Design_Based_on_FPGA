@@ -1,0 +1,1 @@
+用记事本编写汇编代码（格式见示例文件code.txt），并命名为code.txt，与compile.m文件放在同一目录下，运行compile.m，即可生成.coe文件

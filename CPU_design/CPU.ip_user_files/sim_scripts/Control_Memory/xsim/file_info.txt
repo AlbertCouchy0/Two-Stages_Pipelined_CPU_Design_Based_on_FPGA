@@ -1,0 +1,2 @@
+Control_Memory.v,verilog,xil_defaultlib,../../../../CPU.gen/sources_1/ip/Control_Memory/sim/Control_Memory.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

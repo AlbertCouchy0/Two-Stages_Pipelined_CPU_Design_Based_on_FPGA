@@ -1,0 +1,23 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/Control_Memory/sim/Control_Memory.v,1743849958,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,,Control_Memory,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/Memory/sim/Memory.v,1743855333,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/Control_Memory/sim/Control_Memory.v,,Memory,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/Mul/sim/Mul.vhd,1743509466,vhdl,,,,mul,,,,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1743840736,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/ACC.v,,clk_wiz_0,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1743840736,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sim_1/new/top_sim.v,1743847373,verilog,,,,top_sim,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/ACC.v,1743594216,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/ALU.v,,ACC,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/ALU.v,1743683266,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/BR.v,,ALU,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/BR.v,1743683967,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/IR.v,,BR,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/IR.v,1743684023,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MAR.v,,IR,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MAR.v,1743683464,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MAR_b.v,,MAR_a,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MAR_b.v,1743689722,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MBR.v,,MAR_b,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MBR.v,1743683865,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MBR_b.v,,MBR_a,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/MBR_b.v,1743683863,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/PC.v,,MBR_b,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/PC.v,1743684051,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/control_unit.v,,PC,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/control_unit.v,1743694511,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/display.v,,control_unit,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/display.v,1743510209,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/top.v,,display,,,../../../../CPU.ip_user_files/ipstatic,,,,,
+X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sources_1/new/top.v,1743840862,verilog,,X:/2-Github/CPU_Design_Based_on_FPGA/CPU_design/CPU.srcs/sim_1/new/top_sim.v,,top,,,../../../../CPU.ip_user_files/ipstatic,,,,,

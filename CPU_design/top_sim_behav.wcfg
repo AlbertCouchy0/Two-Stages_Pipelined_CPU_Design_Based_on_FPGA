@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="14.800000 us"></ZoomStartTime>
+      <ZoomEndTime time="34.260001 us"></ZoomEndTime>
+      <Cursor1Time time="31.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="185"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/top_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/clk_2" type="logic">
+      <obj_property name="ElementShortName">clk_2</obj_property>
+      <obj_property name="ObjectShortName">clk_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/clk_4" type="logic">
+      <obj_property name="ElementShortName">clk_4</obj_property>
+      <obj_property name="ObjectShortName">clk_4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/BR" type="array">
+      <obj_property name="ElementShortName">BR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">BR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/ACC_result" type="array">
+      <obj_property name="ElementShortName">ACC_result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ACC_result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/ACC" type="array">
+      <obj_property name="ElementShortName">ACC[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ACC[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/MAR1/MAR_a" type="array">
+      <obj_property name="ElementShortName">MAR_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MAR_a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/MBR1/RAM_a" type="array">
+      <obj_property name="ElementShortName">RAM_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_a[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/MBR1/MBR_a" type="array">
+      <obj_property name="ElementShortName">MBR_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MBR_a[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/MAR2/MAR_b" type="array">
+      <obj_property name="ElementShortName">MAR_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MAR_b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/MBR2/RAM_b" type="array">
+      <obj_property name="ElementShortName">RAM_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_b[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/MBR2/MBR_b" type="array">
+      <obj_property name="ElementShortName">MBR_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MBR_b[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/PC" type="array">
+      <obj_property name="ElementShortName">PC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/IR" type="array">
+      <obj_property name="ElementShortName">IR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/CAR" type="array">
+      <obj_property name="ElementShortName">CAR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">CAR[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_sim/CBR" type="array">
+      <obj_property name="ElementShortName">CBR[21:0]</obj_property>
+      <obj_property name="ObjectShortName">CBR[21:0]</obj_property>
+   </wvobject>
+</wave_config>
