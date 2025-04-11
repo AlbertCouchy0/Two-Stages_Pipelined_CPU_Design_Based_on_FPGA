@@ -1,4 +1,4 @@
-# Two-Stage Pipelined CPU Using Microprogramme Based on FPGA
+# Two-Stages Pipelined CPU Using Microprogramme Based on FPGA
 
 ## Project Introduction  
 
